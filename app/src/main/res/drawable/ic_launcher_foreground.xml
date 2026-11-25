@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Formwise mark: three stacked cards (the sign-in screen motif) with a small bar chart on the front one.
+     Everything stays inside the 66dp safe circle so no launcher mask can clip it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- back card -->
+    <group
+        android:pivotX="52.5"
+        android:pivotY="47.5"
+        android:rotation="-9">
+        <path
+            android:fillColor="#FF36D2FF"
+            android:pathData="M39.5,33h26a7,7 0 0 1 7,7v15a7,7 0 0 1 -7,7h-26a7,7 0 0 1 -7,-7v-15a7,7 0 0 1 7,-7z" />
+    </group>
+    <!-- middle card -->
+    <group
+        android:pivotX="56"
+        android:pivotY="49"
+        android:rotation="7">
+        <path
+            android:fillColor="#FFD3EFFF"
+            android:pathData="M43,34.5h26a7,7 0 0 1 7,7v15a7,7 0 0 1 -7,7h-26a7,7 0 0 1 -7,-7v-15a7,7 0 0 1 7,-7z" />
+    </group>
+    <!-- front card -->
+    <group
+        android:pivotX="54"
+        android:pivotY="58"
+        android:rotation="0">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M37,40h34a8,8 0 0 1 8,8v20a8,8 0 0 1 -8,8h-34a8,8 0 0 1 -8,-8v-20a8,8 0 0 1 8,-8z" />
+    </group>
+    <!-- title line -->
+    <path
+        android:fillColor="#FF071A29"
+        android:pathData="M35.65,46.5h19.2a1.4,1.4 0 0 1 1.4,1.4v0.2a1.4,1.4 0 0 1 -1.4,1.4h-19.2a1.4,1.4 0 0 1 -1.4,-1.4v-0.2a1.4,1.4 0 0 1 1.4,-1.4z" />
+    <!-- chart bars, the newest one emphasised -->
+    <path
+        android:fillColor="#FF9CDDF2"
+        android:pathData="M35.85,61.5h3.3a1.6,1.6 0 0 1 1.6,1.6v4.8a1.6,1.6 0 0 1 -1.6,1.6h-3.3a1.6,1.6 0 0 1 -1.6,-1.6v-4.8a1.6,1.6 0 0 1 1.6,-1.6z" />
+    <path
+        android:fillColor="#FF9CDDF2"
+        android:pathData="M46.85,57h3.3a1.6,1.6 0 0 1 1.6,1.6v9.3a1.6,1.6 0 0 1 -1.6,1.6h-3.3a1.6,1.6 0 0 1 -1.6,-1.6v-9.3a1.6,1.6 0 0 1 1.6,-1.6z" />
+    <path
+        android:fillColor="#FF9CDDF2"
+        android:pathData="M57.85,59.5h3.3a1.6,1.6 0 0 1 1.6,1.6v6.8a1.6,1.6 0 0 1 -1.6,1.6h-3.3a1.6,1.6 0 0 1 -1.6,-1.6v-6.8a1.6,1.6 0 0 1 1.6,-1.6z" />
+    <path
+        android:fillColor="#FF0B7FA5"
+        android:pathData="M68.85,50.5h3.3a1.6,1.6 0 0 1 1.6,1.6v15.8a1.6,1.6 0 0 1 -1.6,1.6h-3.3a1.6,1.6 0 0 1 -1.6,-1.6v-15.8a1.6,1.6 0 0 1 1.6,-1.6z" />
+</vector>

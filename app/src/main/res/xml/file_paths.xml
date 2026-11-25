@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- CSV exports are written here before being shared, and are not kept long-term -->
+    <cache-path name="exports" path="exports/" />
+</paths>
